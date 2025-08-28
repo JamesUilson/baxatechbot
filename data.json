@@ -1,0 +1,18 @@
+{
+  "company_info": "BaxaTech — bu dasturlash, dizayn va pentesting (ethical hacking) bo‘yicha professional xizmatlar ko‘rsatadigan IT kompaniya. Bizning maqsad — biznesingizni raqamli dunyoda xavfsiz va samarali qilish.",
+  
+  "contacts": {
+    "phone": "+998 91 689 13 17",
+    "telegram": "@BaxaTech25",
+    "email": "baxatech2025@gmail.com",
+    "website": "https://jamesuilson.github.io/portfolio/"
+  },
+
+"services": {
+  "programming": "💻 DASTURLASH XIZMATLARI VA NARXLARI:\n\n✨ Web saytlar:\n  - Landing page: 5$ – 50$\n  - Murakkab web sayt: 80$ – 200$\n\n✨ Mobil ilovalar (Flutter): 100$ – 300$\n✨ Backend (Django): 100$ – 300$\n✨ Custom Python scriptlar: 50$ – 100$\n✨ Avtomatlashtirish tizimlari: 150$ – 400$\n✨ Telegram botlar: 80$ – 300$\n\n⚡ Narxlar loyiha murakkabligiga qarab belgilanadi.",
+  
+  "design": "🎨 DIZAYN XIZMATLARI VA NARXLARI:\n\n✨ UI/UX dizayn (1 ta sahifa): 40$ – 100$\n✨ Logotip: 30$ – 100$\n✨ Brend identitet (to‘liq): 100$ – 300$\n✨ Prezentatsiya (10–15 slayd): 10$ – 80$\n✨ SMM post / banner (1 dona): 5$ – 15$\n✨ Infografika: 10$ – 40$\n\n⚡ Narxlar loyiha murakkabligiga qarab belgilanadi.",
+  
+  "pentest": "🔐 PENTESTING & CYBER SECURITY XIZMATLARI VA NARXLARI:\n\n✨ Pentest (kichik sayt): 80$ – 150$\n✨ Pentest (katta tizim): 200$ – 500$\n✨ Tarmoq xavfsizligi auditi: 150$ – 400$\n✨ Ijtimoiy muhandislik (Social Engineering): 100$ – 300$\n✨ Xavfsizlik bo‘yicha maslahatlar: 20$ – 50$\n✨ Custom hacking vositalari (Python / Bash script): 70$ – 200$\n\n⚡ Xizmat faqat mijozning ruxsati bilan amalga oshiriladi."
+}
+}

@@ -1,0 +1,1 @@
+This bot was created by BaxaTech and it protected by copyright
