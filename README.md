@@ -65,7 +65,8 @@ Use a virtual environment to isolate dependencies.
 Add schema validation or locking when working with data.json to prevent concurrency issues.
 Add logging using Python's built-in logging module for monitoring and debugging.
 Consider writing tests and integrate CI (e.g., GitHub Actions) for automated checks.
-File Structure
+
+## File Structure
 baxatechbot/
 ├── bot.py
 ├── config.py
@@ -74,6 +75,7 @@ baxatechbot/
 ├── README.md
 ├── .gitignore
 └── (venv/)  # optional
+
 License
 This project is under the MIT License. See the LICENSE file for details.
 Contact
