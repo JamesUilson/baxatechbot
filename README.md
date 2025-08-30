@@ -49,24 +49,27 @@ import os
 
 load_dotenv()
 
+```python
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 DATABASE_URL = os.getenv("DATABASE_URL")
-Data Persistence (data.json)
+💾 Data Persistence (data.json)
 This file is used by the bot to store state or user-related data.
-It should remain in version control only if it doesn't contain sensitive information; otherwise, consider relocating to a data/ directory and adding that to .gitignore.
-Usage
+It should remain in version control only if it doesn't contain sensitive information.
+Otherwise, consider relocating it to a data/ directory and adding that to .gitignore.
+
+▶️ Usage
 Run the bot:
 python bot.py
-Make sure:
+✅ Make sure:
 .env exists and contains required configuration.
 data.json is writable and properly formatted.
-Development & Maintenance
+🔨 Development & Maintenance
 Use a virtual environment to isolate dependencies.
 Add schema validation or locking when working with data.json to prevent concurrency issues.
 Add logging using Python's built-in logging module for monitoring and debugging.
 Consider writing tests and integrate CI (e.g., GitHub Actions) for automated checks.
 
-## File Structure
+📂 File Structure
 baxatechbot/
 ├── bot.py
 ├── config.py
@@ -76,9 +79,10 @@ baxatechbot/
 ├── .gitignore
 └── (venv/)  # optional
 
-License
-This project is under the MIT License. See the LICENSE file for details.
-Contact
-Brought to you by BaxaTech.
-For inquiries or support, reach out via Telegram: @BaxaTech25
-Note: Remove .env and data.json from version control if they contain sensitive data in production.
+📜 License
+This project is under the MIT License.
+
+📬 Contact
+Brought to you by BaxaTech
+📱 Telegram: @BaxaTech25
+⚠️ Note: Remove .env and data.json from version control if they contain sensitive data in production.
