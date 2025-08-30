@@ -42,32 +42,36 @@ pip install -r requirements.txt
 Create .env from the sample
 Duplicate .env.sample to .env and fill in real secrets (e.g., BOT_TOKEN).
 Ensure .env is listed in .gitignore.
-Configuration File (config.py)
-The config.py file should read all sensitive configuration values from environment variables using python-dotenv. Example:
+
+⚙️ Configuration
+config.py should read sensitive values from environment variables using python-dotenv.
+Example:
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
 
-```python
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 DATABASE_URL = os.getenv("DATABASE_URL")
-💾 Data Persistence (data.json)
-This file is used by the bot to store state or user-related data.
-It should remain in version control only if it doesn't contain sensitive information.
-Otherwise, consider relocating it to a data/ directory and adding that to .gitignore.
+
+💾 Data Persistence
+data.json is used by the bot to store state or user-related data.
+Keep it in version control only if it doesn’t contain sensitive information.
+Otherwise, move it to a data/ directory and add to .gitignore.
 
 ▶️ Usage
-Run the bot:
+Run the bot with:
 python bot.py
+
 ✅ Make sure:
 .env exists and contains required configuration.
 data.json is writable and properly formatted.
+
 🔨 Development & Maintenance
 Use a virtual environment to isolate dependencies.
-Add schema validation or locking when working with data.json to prevent concurrency issues.
-Add logging using Python's built-in logging module for monitoring and debugging.
-Consider writing tests and integrate CI (e.g., GitHub Actions) for automated checks.
+Add schema validation or locking when working with data.json.
+Use Python’s built-in logging for monitoring and debugging.
+Consider writing tests and integrating CI (e.g., GitHub Actions).
 
 📂 File Structure
 baxatechbot/
@@ -80,9 +84,9 @@ baxatechbot/
 └── (venv/)  # optional
 
 📜 License
-This project is under the MIT License.
+This project is licensed under the MIT License.
 
 📬 Contact
-Brought to you by BaxaTech
+👨‍💻 Developed by BaxaTech
 📱 Telegram: @BaxaTech25
 ⚠️ Note: Remove .env and data.json from version control if they contain sensitive data in production.
