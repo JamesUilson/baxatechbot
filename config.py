@@ -1,4 +1,9 @@
-BOT_TOKEN = "7613742596:AAFXMrTRK1wCjReUj4FBejXIfQJnCTAx-fI"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+BOT_TOKEN = BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = 2110945697   # Savollar yuboriladigan admin Telegram ID
 
 # Portfolio link
